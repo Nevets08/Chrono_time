@@ -1,0 +1,63 @@
+html body {
+    background-color: #F8C471;
+}
+
+#title h1 {
+    font-weight: bold;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+#title {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#time {
+    margin-top: 15vh;
+}
+
+#time, #control {
+    display: flex;
+    justify-content: center;
+}
+
+#time span {
+    font-size: 70px;
+}
+
+#control button {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0%;
+    margin: 10px 15px 0px 15px;
+}
+
+#control button.red {
+    color: red;
+}
+
+#control button.btn-color {
+    color: #28B463;
+}
+
+#lapContainer .lapResult {
+    background-color: #2C3E50;
+    margin-bottom: 3vh;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #ABB2B9;
+    display: block;
+    margin-left: 6px;
+    height: 40px;
+}
+
+.footer a {
+    position: absolute;
+    bottom: 0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 10px;
+}
