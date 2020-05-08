@@ -66,12 +66,12 @@ html body {
 
 @media screen and (max-width:996px) {
     #title {
-        margin-top: -15px;
+        margin: -10px 0px -60px 0px;
         text-align: center;
     }
 
-    #time {
-        margin-top: -15px;
+    #title h1 {
+        font-size: 80px;
     }
 
     #lapContainer {
