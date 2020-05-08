@@ -48,7 +48,7 @@ buttonLap.addEventListener('click', () => {
         lapCount += 1;
 
         const createLapDiv = document.createElement('div');
-        createLapDiv.setAttribute('class', 'col-11 lapResult');
+        createLapDiv.setAttribute('class', 'col-xl-11 col-sm-12 lapResult');
         const createLapContent = document.createTextNode('Lap ' + lapCount + ' ' + selectorMin.innerHTML + ':' + selectorSec.innerHTML + ':' + selectorMs.innerHTML);
         createLapDiv.appendChild(createLapContent);
         document.getElementById('lapContainer').appendChild(createLapDiv);
